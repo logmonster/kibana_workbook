@@ -63,7 +63,7 @@ typings/
 # from original plugin generate ignore file
 npm-debug.log*
 node_modules
-/build/
+#/build/
 
 
 
