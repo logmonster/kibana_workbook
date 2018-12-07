@@ -64,6 +64,6 @@ typings/
 npm-debug.log*
 node_modules
 #/build/
-
+_script/02*
 
 
