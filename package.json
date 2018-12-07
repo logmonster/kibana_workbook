@@ -4,7 +4,7 @@
   "description": "kibana notebook - saving queries",
   "main": "index.js",
   "kibana": {
-    "version": "6.5.x",
+    "version": "6.4.4",
     "templateVersion": "1.0.0"
   },
   "scripts": {
