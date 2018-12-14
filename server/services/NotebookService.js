@@ -30,12 +30,7 @@ const _notebookService = function () {
             type: 'date'
           },
           queries: {
-            type: 'text',
-            fields: {
-              keyword: {
-                type: 'keyword'
-              }
-            }
+            type: 'text'
           }
         }
       }

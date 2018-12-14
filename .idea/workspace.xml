@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a3f817-5698-4a6d-bec6-27e6fde1ab5d" name="Default" comment="" />
+    <list default="true" id="35a3f817-5698-4a6d-bec6-27e6fde1ab5d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/server/services/NotebookService.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/NotebookService.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/components/main/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="202">
@@ -31,6 +33,15 @@
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotebookService.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/services/NotebookService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -108,10 +119,10 @@
         <option value="$PROJECT_DIR$/public/components/NotebookList/notebookListItem.js" />
         <option value="$PROJECT_DIR$/public/components/NotebookList/notebookList.js" />
         <option value="$PROJECT_DIR$/public/components/ModalWivTextbox/modalConfirm.js" />
-        <option value="$PROJECT_DIR$/server/services/NotebookService.js" />
         <option value="$PROJECT_DIR$/public/components/ModalWivTextbox/index.js" />
         <option value="$PROJECT_DIR$/public/components/ModalWivTextbox/modalInfo.js" />
         <option value="$PROJECT_DIR$/public/components/main/main.js" />
+        <option value="$PROJECT_DIR$/server/services/NotebookService.js" />
       </list>
     </option>
   </component>
@@ -251,11 +262,12 @@
       <workItem from="1543802012342" duration="4963000" />
       <workItem from="1543921313211" duration="6413000" />
       <workItem from="1544159869694" duration="635000" />
+      <workItem from="1544773711575" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87884000" />
+    <option name="totallyTimeSpent" value="87952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -265,13 +277,13 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -531,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/notebookSetup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="45" lean-forward="true" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/services/DateTimeService.js" />
     <entry file="file://$PROJECT_DIR$/public/components/NotebookList/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -620,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/services/NotebookService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/components/ModalWivTextbox/modalConfirm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -661,6 +659,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/notebookSetup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/components/main/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -668,6 +673,13 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/services/NotebookService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
         </state>
       </provider>
     </entry>
