@@ -97,6 +97,13 @@
   color: #034f84;
 }
 
+.parser-word-wrap {
+  white-space: pre-wrap;      /* CSS3 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -o-pre-wrap;   /* Opera 7 */
+  word-wrap: break-word;      /* IE */
+}
+
 .button-icon {
   line-height: 30px;
   padding-left: 8px;

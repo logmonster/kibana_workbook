@@ -71,10 +71,13 @@ export class QueryEditor extends React.Component {
      */
     contentContainer: {
       margin: 'auto',
-      width: '98%',
+      width: 'calc(98%)',
       height: '450px',
-      overflowX: 'auto',
+      /*
+      overflowX: 'scroll',
       overflowY: 'auto'
+      */
+      overflow: 'auto'
     },
     contentArea: {},
     previewTitle: {

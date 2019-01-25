@@ -41,7 +41,9 @@ export class NotebookList extends React.Component {
     }
     return (
       <div style={this._css.container}>
-        { _list }
+        <div style={this._css.innerContainer}>
+          { _list }
+        </div>
       </div>
     );
   }
@@ -54,7 +56,12 @@ export class NotebookList extends React.Component {
     container: {
       margin: 'auto',
       width: 'calc(98%)',
-      paddingTop: '24px'
+      paddingTop: '24px',
+      overflow: 'auto',
+      height: '200px'
+    },
+    innerContainer: {
+      width: 'calc(100%)'
     },
     leftControl: {
       position: 'relative',

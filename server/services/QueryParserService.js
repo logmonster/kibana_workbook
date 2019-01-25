@@ -6,6 +6,7 @@
 const _queryParserService = function () {
   const CSS_HTTP_VERB = 'parser-http-verb';
   const CSS_INDEX_LINE = 'parser-index-line';
+  const CSS_LINE_WRAP = 'parser-word-wrap';
   /**
    * default parser; in general the parser should be picked based on
    * the method -> loadPlugin (pluginName, version)
@@ -60,14 +61,14 @@ const _queryParserService = function () {
           }
           // is a "verb"
           if (_verbIdx !== -1) {
-            _line = '<span class="' + CSS_HTTP_VERB + '">' + _verb + '</span>' +
-              '<span class="' + CSS_INDEX_LINE + '">' + _line.substring(_endVerbIdx).replace(/\s/g, '&nbsp;') + '</span> <br/>';
+            _line = '<div class="' + CSS_LINE_WRAP + '"><span class="' + CSS_HTTP_VERB + '">' + _verb + '</span>' +
+              '<span class="' + CSS_INDEX_LINE + '">' + _line.substring(_endVerbIdx).replace(/\s/g, '&nbsp;') + '</span> <div/>';
             _lines[idx] = _line;
           } else {
             // TODO: handle { or }
             // ** global replace using regexp => https://flaviocopes.com/how-to-replace-all-occurrences-string-javascript/
             _line = _line.replace(/\s/g, '&nbsp;');
-            _lines[idx] = _line + '<br/>';
+            _lines[idx] = '<div class="' + CSS_LINE_WRAP + '"></div>' + _line + '<div/>';
           }
         }); // end -- _lines.forEach()
         return _lines.join('');
