@@ -123,6 +123,8 @@ const _notebookService = function () {
       handle(req, 'search', {
         index: '.notebook',
         type: '_doc',
+        size: 1000,
+        sort: "name:asc,createdAt:desc",
         body: {
           query: {
             match_all: {}
