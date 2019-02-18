@@ -124,7 +124,7 @@ const _notebookService = function () {
         index: '.notebook',
         type: '_doc',
         size: 1000,
-        sort: "name:asc,createdAt:desc",
+        sort: "name.keyword:asc,createdAt:desc",
         body: {
           query: {
             match_all: {}
